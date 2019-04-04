@@ -1,0 +1,433 @@
+
+Snyk's wizard will:
+
+  * Enumerate your local dependencies and query Snyk's servers for vulnerabilities
+  * Guide you through fixing found vulnerabilities
+  * Create a .snyk policy file to guide snyk commands such as `test` and `protect`
+  * Remember your dependencies to alert you when new vulnerabilities are disclosed
+
+Tested 438 dependencies for known vulnerabilities, found 38 vulnerabilities, 84 vulnerable paths.
+
+? ✗ High severity vuln found in adm-zip@0.4.7, introduced via adm-zip@0.4.7
+    Description: Arbitrary File Write via Archive Extraction (Zip Slip)
+    Info: https://snyk.io/vuln/npm:adm-zip:20180415
+  Remediation options (Use arrow keys)
+❯ Upgrade to adm-zip@0.4.11 
+  Patch (no patch available, we'll notify you when there is one) 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ High severity vuln found in adm-zip@0.4.7, introduced via adm-zip@0.4.7
+    Description: Arbitrary File Write via Archive Extraction (Zip Slip)
+    Info: https://snyk.io/vuln/npm:adm-zip:20180415
+  Remediation options Upgrade to adm-zip@0.4.11[47D[47C
+
+? ✗ High severity vuln found in qs@2.2.4, introduced via body-parser@1.9.0
+    Description: Prototype Override Protection Bypass
+    Info: https://snyk.io/vuln/npm:qs:20170213
+    From: body-parser@1.9.0 > qs@2.2.4
+  Remediation options (Use arrow keys)
+❯ Upgrade to body-parser@1.17.1 (triggers upgrade to qs@6.4.0) 
+  Patch (no patch available, we'll notify you when there is one) 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ High severity vuln found in qs@2.2.4, introduced via body-parser@1.9.0
+    Description: Prototype Override Protection Bypass
+    Info: https://snyk.io/vuln/npm:qs:20170213
+    From: body-parser@1.9.0 > qs@2.2.4
+  Remediation options Upgrade to body-parser@1.17.1[51D[51C
+
+? ✗ High severity vuln found in dustjs-linkedin@2.5.0, introduced via dustjs-lin
+kedin@2.5.0
+    Description: Code Injection
+    Info: https://snyk.io/vuln/npm:dustjs-linkedin:20160819
+  Remediation options (Use arrow keys)
+❯ Upgrade to dustjs-linkedin@2.6.0 
+  Patch (no patch available, we'll notify you when there is one) 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ High severity vuln found in dustjs-linkedin@2.5.0, introduced via dustjs-lin
+kedin@2.5.0
+    Description: Code Injection
+    Info: https://snyk.io/vuln/npm:dustjs-linkedin:20160819
+  Remediation options Upgrade to dustjs-linkedin@2.6.0[54D[54C
+
+? ✗ 3 Medium vulnerabilities introduced via ejs@1.0.0
+    Info: https://snyk.io/package/npm/ejs/1.0.0
+  Remediation options (Use arrow keys)
+❯ Upgrade to ejs@2.5.5 (potentially breaking change) 
+  Review issues separately 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ 3 Medium vulnerabilities introduced via ejs@1.0.0
+    Info: https://snyk.io/package/npm/ejs/1.0.0
+  Remediation options Upgrade to ejs@2.5.5[42D[42C
+
+? ✗ High severity vuln found in negotiator@0.4.9, introduced via errorhandler@1.
+2.0
+    Description: Regular Expression Denial of Service (DoS)
+    Info: https://snyk.io/vuln/npm:negotiator:20160616
+    From: errorhandler@1.2.0 > accepts@1.1.4 > negotiator@0.4.9
+  Remediation options (Use arrow keys)
+❯ Upgrade to errorhandler@1.4.3 (triggers upgrade to negotiator@0.6.1) 
+  Patch (modifies files locally, updates policy for `snyk protect` runs) 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ High severity vuln found in negotiator@0.4.9, introduced via errorhandler@1.
+2.0
+    Description: Regular Expression Denial of Service (DoS)
+    Info: https://snyk.io/vuln/npm:negotiator:20160616
+    From: errorhandler@1.2.0 > accepts@1.1.4 > negotiator@0.4.9
+  Remediation options Upgrade to errorhandler@1.4.3[51D[51C
+
+? ✗ 17 Low vulnerabilities introduced via express@4.12.4
+    Info: https://snyk.io/package/npm/express/4.12.4
+  Remediation options (Use arrow keys)
+❯ Upgrade to express@4.16.0 (triggers upgrade to mime@1.4.1, fresh@0.5.2, debug@
+2.6.9, ms@2.0.0, qs@6.4.0, negotiator@0.6.1) 
+  Review issues separately 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ 17 Low vulnerabilities introduced via express@4.12.4
+    Info: https://snyk.io/package/npm/express/4.12.4
+  Remediation options Upgrade to express@4.16.0[47D[47C
+
+? ✗ 2 Low vulnerabilities introduced via humanize-ms@1.0.1
+    Info: https://snyk.io/package/npm/humanize-ms/1.0.1
+  Remediation options (Use arrow keys)
+❯ Upgrade to humanize-ms@1.2.1 (triggers upgrade to ms@0.7.1) 
+  Review issues separately 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ 2 Low vulnerabilities introduced via humanize-ms@1.0.1
+    Info: https://snyk.io/package/npm/humanize-ms/1.0.1
+  Remediation options Upgrade to humanize-ms@1.2.1[50D[50C
+
+? ✗ Medium severity vuln found in jquery@2.2.4, introduced via jquery@2.2.4
+    Description: Cross-site Scripting (XSS)
+    Info: https://snyk.io/vuln/npm:jquery:20150627
+  Remediation options (Use arrow keys)
+❯ Upgrade to jquery@3.0.0 (potentially breaking change) 
+  Patch (no patch available, we'll notify you when there is one) 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Medium severity vuln found in jquery@2.2.4, introduced via jquery@2.2.4
+    Description: Cross-site Scripting (XSS)
+    Info: https://snyk.io/vuln/npm:jquery:20150627
+  Remediation options Upgrade to jquery@3.0.0[45D[45C
+
+? ✗ 6 High vulnerabilities introduced via marked@0.3.5
+    Info: https://snyk.io/package/npm/marked/0.3.5
+  Remediation options (Use arrow keys)
+❯ Upgrade to marked@0.3.17 
+  Review issues separately 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ 6 High vulnerabilities introduced via marked@0.3.5
+    Info: https://snyk.io/package/npm/marked/0.3.5
+  Remediation options Upgrade to marked@0.3.17[46D[46C
+
+? ✗ 2 Low vulnerabilities introduced via moment@2.15.1
+    Info: https://snyk.io/package/npm/moment/2.15.1
+  Remediation options (Use arrow keys)
+❯ Upgrade to moment@2.19.3 
+  Review issues separately 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ 2 Low vulnerabilities introduced via moment@2.15.1
+    Info: https://snyk.io/package/npm/moment/2.15.1
+  Remediation options Upgrade to moment@2.19.3[46D[46C
+
+? ✗ 6 Low vulnerabilities introduced via mongoose@4.2.4
+    Info: https://snyk.io/package/npm/mongoose/4.2.4
+  Remediation options (Use arrow keys)
+❯ Upgrade to mongoose@4.11.14 (triggers upgrade to ms@2.0.0, bson@1.0.5) 
+  Review issues separately 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ 6 Low vulnerabilities introduced via mongoose@4.2.4
+    Info: https://snyk.io/package/npm/mongoose/4.2.4
+  Remediation options Upgrade to mongoose@4.11.14[49D[49C
+
+? ✗ Low severity vuln found in ms@0.7.3, introduced via ms@0.7.3
+    Description: Regular Expression Denial of Service (ReDoS)
+    Info: https://snyk.io/vuln/npm:ms:20170412
+  Remediation options (Use arrow keys)
+❯ Upgrade to ms@2.0.0 (potentially breaking change) 
+  Patch (modifies files locally, updates policy for `snyk protect` runs) 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Low severity vuln found in ms@0.7.3, introduced via ms@0.7.3
+    Description: Regular Expression Denial of Service (ReDoS)
+    Info: https://snyk.io/vuln/npm:ms:20170412
+  Remediation options Upgrade to ms@2.0.0[41D[41C
+
+? ✗ 2 High vulnerabilities introduced via npmconf@0.0.24
+    Info: https://snyk.io/package/npm/npmconf/0.0.24
+  Remediation options (Use arrow keys)
+❯ Upgrade to npmconf@2.1.3 (potentially breaking change, triggers upgrade to sem
+ver@4.3.2) 
+  Review issues separately 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ 2 High vulnerabilities introduced via npmconf@0.0.24
+    Info: https://snyk.io/package/npm/npmconf/0.0.24
+  Remediation options Upgrade to npmconf@2.1.3[46D[46C
+
+? ✗ 4 Medium vulnerabilities introduced via st@0.2.4
+    Info: https://snyk.io/package/npm/st/0.2.4
+  Remediation options (Use arrow keys)
+❯ Upgrade to st@1.2.2 (potentially breaking change, triggers upgrade to mime@1.4
+.1, negotiator@0.6.1) 
+  Review issues separately 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ 4 Medium vulnerabilities introduced via st@0.2.4
+    Info: https://snyk.io/package/npm/st/0.2.4
+  Remediation options Upgrade to st@1.2.2[41D[41C
+
+? ✗ 20 Low vulnerabilities introduced via tap@5.8.0
+    Info: https://snyk.io/package/npm/tap/5.8.0
+  Remediation options (Use arrow keys)
+❯ Upgrade to tap@11.1.3 (potentially breaking change, triggers upgrade to hoek@4
+.2.1, cryptiles@4.1.2, tunnel-agent@0.6.0, braces@2.3.1, minimatch@3.0.2, brace-
+expansion@1.1.7, istanbul@0.4.5, ms@2.0.0, debug@2.6.9) 
+  Review issues separately 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ 20 Low vulnerabilities introduced via tap@5.8.0
+    Info: https://snyk.io/package/npm/tap/5.8.0
+  Remediation options Upgrade to tap@11.1.3[43D[43C
+
+? ✗ Low severity vuln found in hawk@1.1.1, introduced via tap@5.8.0
+    Description: Regular Expression Denial of Service (DoS)
+    Info: https://snyk.io/vuln/npm:hawk:20160119
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > hawk@1.1.1
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+❯ Patch (modifies files locally, updates policy for `snyk protect` runs) 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Low severity vuln found in hawk@1.1.1, introduced via tap@5.8.0
+    Description: Regular Expression Denial of Service (DoS)
+    Info: https://snyk.io/vuln/npm:hawk:20160119
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > hawk@1.1.1
+  Remediation options Patch[27D[27C
+
+? ✗ Medium severity vuln found in http-signature@0.10.1, introduced via tap@5.8.
+0
+    Description: Timing Attack
+    Info: https://snyk.io/vuln/npm:http-signature:20150122
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > http-signature@0.10.1
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+❯ Patch (modifies files locally, updates policy for `snyk protect` runs) 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Medium severity vuln found in http-signature@0.10.1, introduced via tap@5.8.
+0
+    Description: Timing Attack
+    Info: https://snyk.io/vuln/npm:http-signature:20150122
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > http-signature@0.10.1
+  Remediation options Patch[27D[27C
+
+? ✗ Low severity vuln found in mime@1.2.11, introduced via tap@5.8.0
+    Description: Regular Expression Denial of Service (ReDoS)
+    Info: https://snyk.io/vuln/npm:mime:20170907
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > form-data@0.1.4 > mime
+@1.2.11
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+❯ Patch (modifies files locally, updates policy for `snyk protect` runs) 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Low severity vuln found in mime@1.2.11, introduced via tap@5.8.0
+    Description: Regular Expression Denial of Service (ReDoS)
+    Info: https://snyk.io/vuln/npm:mime:20170907
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > form-data@0.1.4 > mime
+@1.2.11
+  Remediation options Patch[27D[27C
+
+? ✗ Medium severity vuln found in request@2.42.0, introduced via tap@5.8.0
+    Description: Remote Memory Exposure
+    Info: https://snyk.io/vuln/npm:request:20160119
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+❯ Patch (modifies files locally, updates policy for `snyk protect` runs) 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Medium severity vuln found in request@2.42.0, introduced via tap@5.8.0
+    Description: Remote Memory Exposure
+    Info: https://snyk.io/vuln/npm:request:20160119
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0
+  Remediation options Patch[27D[27C
+
+? ✗ Medium severity vuln found in tunnel-agent@0.4.3, introduced via tap@5.8.0
+    Description: Uninitialized Memory Exposure
+    Info: https://snyk.io/vuln/npm:tunnel-agent:20170305
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > tunnel-agent@0.4.3
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+❯ Patch (modifies files locally, updates policy for `snyk protect` runs) 
+  Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Medium severity vuln found in tunnel-agent@0.4.3, introduced via tap@5.8.0
+    Description: Uninitialized Memory Exposure
+    Info: https://snyk.io/vuln/npm:tunnel-agent:20170305
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > tunnel-agent@0.4.3
+  Remediation options Patch[27D[27C
+
+? ✗ Medium severity vuln found in cryptiles@0.2.2, introduced via tap@5.8.0
+    Description: Insecure Randomness
+    Info: https://snyk.io/vuln/npm:cryptiles:20180710
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > hawk@1.1.1 > cryptiles
+@0.2.2
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+  Patch (no patch available, we'll notify you when there is one) 
+❯ Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Medium severity vuln found in cryptiles@0.2.2, introduced via tap@5.8.0
+    Description: Insecure Randomness
+    Info: https://snyk.io/vuln/npm:cryptiles:20180710
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > hawk@1.1.1 > cryptiles
+@0.2.2
+  Remediation options Ignore[28D[28C
+? [audit] Reason for ignoring vulnerability? (None given) [58D[58C[2K[G? [audit] Reason for ignoring vulnerability? None given[55D[55C
+
+? ✗ High severity vuln found in ejs@0.8.8, introduced via ejs-locals@1.0.2
+    Description: Arbitrary Code Execution
+    Info: https://snyk.io/vuln/npm:ejs:20161128
+    From: ejs-locals@1.0.2 > ejs@0.8.8
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+  Patch (no patch available, we'll notify you when there is one) 
+❯ Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ High severity vuln found in ejs@0.8.8, introduced via ejs-locals@1.0.2
+    Description: Arbitrary Code Execution
+    Info: https://snyk.io/vuln/npm:ejs:20161128
+    From: ejs-locals@1.0.2 > ejs@0.8.8
+  Remediation options Ignore[28D[28C
+? [audit] Reason for ignoring vulnerability? (None given) [58D[58C[2K[G? [audit] Reason for ignoring vulnerability? None given[55D[55C
+
+? ✗ Medium severity vuln found in ejs@0.8.8, introduced via ejs-locals@1.0.2
+    Description: Cross-site Scripting (XSS)
+    Info: https://snyk.io/vuln/npm:ejs:20161130
+    From: ejs-locals@1.0.2 > ejs@0.8.8
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+  Patch (no patch available, we'll notify you when there is one) 
+❯ Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Medium severity vuln found in ejs@0.8.8, introduced via ejs-locals@1.0.2
+    Description: Cross-site Scripting (XSS)
+    Info: https://snyk.io/vuln/npm:ejs:20161130
+    From: ejs-locals@1.0.2 > ejs@0.8.8
+  Remediation options Ignore[28D[28C
+? [audit] Reason for ignoring vulnerability? (None given) [58D[58C[2K[G? [audit] Reason for ignoring vulnerability? None given[55D[55C
+
+? ✗ Medium severity vuln found in ejs@0.8.8, introduced via ejs-locals@1.0.2
+    Description: Denial of Service (DoS)
+    Info: https://snyk.io/vuln/npm:ejs:20161130-1
+    From: ejs-locals@1.0.2 > ejs@0.8.8
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+  Patch (no patch available, we'll notify you when there is one) 
+❯ Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Medium severity vuln found in ejs@0.8.8, introduced via ejs-locals@1.0.2
+    Description: Denial of Service (DoS)
+    Info: https://snyk.io/vuln/npm:ejs:20161130-1
+    From: ejs-locals@1.0.2 > ejs@0.8.8
+  Remediation options Ignore[28D[28C
+? [audit] Reason for ignoring vulnerability? (None given) [58D[58C[2K[G? [audit] Reason for ignoring vulnerability? None given[55D[55C
+
+? ✗ Low severity vuln found in hoek@0.9.1, introduced via tap@5.8.0
+    Description: Prototype Pollution
+    Info: https://snyk.io/vuln/npm:hoek:20180212
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > hawk@1.1.1 > hoek@0.9.
+1
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+  Patch (no patch available, we'll notify you when there is one) 
+❯ Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Low severity vuln found in hoek@0.9.1, introduced via tap@5.8.0
+    Description: Prototype Pollution
+    Info: https://snyk.io/vuln/npm:hoek:20180212
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > hawk@1.1.1 > hoek@0.9.
+1
+  Remediation options Ignore[28D[28C
+? [audit] Reason for ignoring vulnerability? (None given) [58D[58C[2K[G? [audit] Reason for ignoring vulnerability? None given[55D[55C
+
+? ✗ Low severity vuln found in hoek@0.9.1, introduced via tap@5.8.0
+    Description: Prototype Pollution
+    Info: https://snyk.io/vuln/npm:hoek:20180212
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > hawk@1.1.1 > boom@0.4.
+2 > hoek@0.9.1
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+  Patch (no patch available, we'll notify you when there is one) 
+❯ Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Low severity vuln found in hoek@0.9.1, introduced via tap@5.8.0
+    Description: Prototype Pollution
+    Info: https://snyk.io/vuln/npm:hoek:20180212
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > hawk@1.1.1 > boom@0.4.
+2 > hoek@0.9.1
+  Remediation options Ignore[28D[28C
+? [audit] Reason for ignoring vulnerability? (None given) [58D[58C[2K[G? [audit] Reason for ignoring vulnerability? None given[55D[55C
+
+? ✗ Low severity vuln found in hoek@0.9.1, introduced via tap@5.8.0
+    Description: Prototype Pollution
+    Info: https://snyk.io/vuln/npm:hoek:20180212
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > hawk@1.1.1 > sntp@0.2.
+4 > hoek@0.9.1
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+  Patch (no patch available, we'll notify you when there is one) 
+❯ Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Low severity vuln found in hoek@0.9.1, introduced via tap@5.8.0
+    Description: Prototype Pollution
+    Info: https://snyk.io/vuln/npm:hoek:20180212
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > hawk@1.1.1 > sntp@0.2.
+4 > hoek@0.9.1
+  Remediation options Ignore[28D[28C
+? [audit] Reason for ignoring vulnerability? (None given) [58D[58C[2K[G? [audit] Reason for ignoring vulnerability? None given[55D[55C
+
+? ✗ Low severity vuln found in hoek@0.9.1, introduced via tap@5.8.0
+    Description: Prototype Pollution
+    Info: https://snyk.io/vuln/npm:hoek:20180212
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > hawk@1.1.1 > cryptiles
+@0.2.2 > boom@0.4.2 > hoek@0.9.1
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+  Patch (no patch available, we'll notify you when there is one) 
+❯ Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Low severity vuln found in hoek@0.9.1, introduced via tap@5.8.0
+    Description: Prototype Pollution
+    Info: https://snyk.io/vuln/npm:hoek:20180212
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > hawk@1.1.1 > cryptiles
+@0.2.2 > boom@0.4.2 > hoek@0.9.1
+  Remediation options Ignore[28D[28C
+? [audit] Reason for ignoring vulnerability? (None given) [58D[58C[2K[G? [audit] Reason for ignoring vulnerability? None given[55D[55C
+
+? ✗ High severity vuln found in qs@1.2.2, introduced via tap@5.8.0
+    Description: Prototype Override Protection Bypass
+    Info: https://snyk.io/vuln/npm:qs:20170213
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > qs@1.2.2
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+  Patch (no patch available, we'll notify you when there is one) 
+❯ Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ High severity vuln found in qs@1.2.2, introduced via tap@5.8.0
+    Description: Prototype Override Protection Bypass
+    Info: https://snyk.io/vuln/npm:qs:20170213
+    From: tap@5.8.0 > codecov.io@0.1.6 > request@2.42.0 > qs@1.2.2
+  Remediation options Ignore[28D[28C
+? [audit] Reason for ignoring vulnerability? (None given) [58D[58C[2K[G? [audit] Reason for ignoring vulnerability? None given[55D[55C
+
+? ✗ High severity issue found in goof@0.0.3, introduced via undefined
+    Description: GPL-2.0 license
+    Info: https://snyk.io/vuln/snyk:lic:npm:goof:GPL-2.0
+    From: 
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+  Patch (no patch available, we'll notify you when there is one) 
+❯ Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ High severity issue found in goof@0.0.3, introduced via undefined
+    Description: GPL-2.0 license
+    Info: https://snyk.io/vuln/snyk:lic:npm:goof:GPL-2.0
+    From: 
+  Remediation options Ignore[28D[28C
+? [audit] Reason for ignoring issue? (None given) [50D[50C[2K[G? [audit] Reason for ignoring issue? None given[47D[47C
+
+? ✗ Medium severity issue found in symbol@0.2.3, introduced via tap@5.8.0
+    Description: MPL-2.0 license
+    Info: https://snyk.io/vuln/snyk:lic:npm:symbol:MPL-2.0
+    From: tap@5.8.0 > nyc@6.6.1 > yargs@4.7.1 > pkg-conf@1.1.3 > symbol@0.2.3
+  Remediation options (Use arrow keys)
+  Upgrade (no sufficient upgrade available we'll notify you when there is one) 
+  Patch (no patch available, we'll notify you when there is one) 
+❯ Set to ignore for 30 days (updates policy) 
+  Skip [7D[7C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? ✗ Medium severity issue found in symbol@0.2.3, introduced via tap@5.8.0
+    Description: MPL-2.0 license
+    Info: https://snyk.io/vuln/snyk:lic:npm:symbol:MPL-2.0
+    From: tap@5.8.0 > nyc@6.6.1 > yargs@4.7.1 > pkg-conf@1.1.3 > symbol@0.2.3
+  Remediation options Ignore[28D[28C
+? [audit] Reason for ignoring issue? (None given) [50D[50C[2K[G? [audit] Reason for ignoring issue? None given[47D[47C
